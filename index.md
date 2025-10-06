@@ -1,4 +1,4 @@
-Hola my name is Shaniya Mack and i'm about to show you something.
+Hola, My name is Shaniya Mack and you get to know me on a deeper level here im about to show you something.
 
 
 
