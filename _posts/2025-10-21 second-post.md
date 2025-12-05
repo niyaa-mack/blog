@@ -6,9 +6,7 @@ code and says what was the issue and how to fix the issue.</p>
 <h1> The example given: </h1>
 
 <br>
-
 <img src="/blog/images/example.png" alt="ex">
-
 <br>
 
 <h1>The first one:</h1>
@@ -35,4 +33,13 @@ code and says what was the issue and how to fix the issue.</p>
 
 <br>
 
-<p> Number 3 was used to calculate the factorial of a given number but it didn't work so the problem of the code was the range did not increase by 1. The way I fixed the code was to add a print statement function   </p>
+<p> Number 3 was used to calculate the factorial of a given number but it didn't work so the problem of the code was the range did not increase by 1. The way I fixed the code was to add a curly brackets for the num and result on the last line of code and to increase by 1 for the range. The code is not going to work if when the range is met the result don't go up by 1. </p>
+
+<br>
+
+<h1> Number 4:</h1>
+<br>
+<p>And finally number 4 was asking the user to enter the correct password but they only get three attempts. The code was messed up by giving the user more than 3 three attempts. So I had to add the equal sign to the greater than sign to make the attempts stop at 3. </p>
+<br>
+
+<p><i> And this is the end of my second blog, I hoped you enjoyed it!!!</i></p >
