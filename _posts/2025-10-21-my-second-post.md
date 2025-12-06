@@ -18,7 +18,7 @@ elif temperature < 0:
 ```
 
 
-<h1>The first one:</h1>
+**<h1>The first one:</h1>**
 
 ```python
 text = "Hello, world, my name is"
@@ -31,7 +31,7 @@ for char in text:
 print(count)
 ```
 
-<p> Number 1 the expectation of the code was to count how many spaces are in a given string. The error was the if statement where the text variable needs a space when it increases but that don't happen. So my solution was to add something in the quotations and it worked. </p>
+<p> Number 1 shows that the expectation of the code was to count how many spaces are in a given string. The error was the if statement where the text variable needs a space when it increases but that don't happen. So my solution was to add something in the quotations and it worked. </p>
 
 
 
