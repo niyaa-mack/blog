@@ -30,12 +30,11 @@ for char in text:
 
 print(count)
 ```
-
-<p> Number 1 shows that the expectation of the code was to count how many spaces are in a given string. The error was the if statement where the text variable needs a space when it increases but that don't happen. So my solution was to add something in the quotations and it worked. </p>
-
+ Number 1 shows that the expectation of the code was to count how many spaces are in a given string. The error was the if statement where the text variable needs a space when it increases but that don't happen. So my solution was to add something in the quotations and it worked.
 
 
-<h1> Number 2:</h1>
+
+<h1> Number 2:</h1>222                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 ```python
 print("give me a number")
@@ -50,7 +49,11 @@ for num in range(1, n):
 
 
 
-<p> Number 2 was expected to determine if the number 1 to how ever much they input are even or odd. The problem I found was the first line is a print not an input and the input default is an string so whatever number the user inputs it will be an error due to it not being converted to a integer. The solution is to put an int infront of the input and in the if statement change it to less than and equal to so the code could work. </p>
+This program was supposed to tell if numbers are even or odd. The issues:
+<br>The input stayed as a string, so math didn’t work.</br>
+<br>The condition num % 2 < 0 wasn’t right for checking even numbers.</br>
+The fix was converting the input with int(input()) and changing the condition to num % 2 == 0.
+
 
 
 
@@ -71,10 +74,13 @@ else:
 
 
 
-<p> Number 3 was used to calculate the factorial of a given number but it didn't work so the problem of the code was the range did not increase by 1. The way I fixed the code was to add a curly brackets for the num and result on the last line of code and to increase by 1 for the range. The code is not going to work if when the range is met the result don't go up by 1. </p>
+This program was meant to calculate factorials, but the loop stopped too early and the print statement mixed strings with integers. The fixes:
+<br>Extend the loop to include the final number (range(1, num + 1)).</br>
+<br>Use proper formatting (like f‑strings) so the output combines text and numbers cleanly.</br>
 
 
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 <h1> Number 4:</h1>
 
 ```python
@@ -95,7 +101,7 @@ while True:
         break
 ```
 
-<p>And finally number 4 was asking the user to enter the correct password but they only get three attempts. The code was messed up by giving the user more than 3 three attempts. So I had to add the equal sign to the greater than sign to make the attempts stop at 3. </p>
+The problem here is that the program was trying to lock the user out after three incorrect tries, but instead it kept running endlessly, allowing unlimited guesses. The issue came from the condition that only checked for attempts greater than three, which meant the program didn’t stop exactly at three. By changing the `>` to `>=`, the loop now correctly recognizes when the user has reached the third attempt and immediately ends, preventing any further inputs and making the program behave the way it was originally intended.
 
 
 <p><i> And this is the end of my second blog, I hoped you enjoyed it!!!</i></p >
