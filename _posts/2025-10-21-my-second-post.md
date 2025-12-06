@@ -5,41 +5,97 @@ code and says what was the issue and how to fix the issue.</p>
 
 <h1> The example given: </h1>
 
-<br>
-<img src="/blog/images/example.png" alt="ex">
-<br>
+
+```python
+temperature = 75
+
+if temperature > 80:
+    print("It's hot")
+elif temperature > 50:
+    print("It's temperate")
+elif temperature < 0:
+    print("It's cold")
+```
+
 
 <h1>The first one:</h1>
 
-<img src="/blog/images/numb1.png" alt="1">
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == "":
+       count += 1
+
+print(count)
+```
 
 <p> Number 1 the expectation of the code was to count how many spaces are in a given string. The error was the if statement where the text variable needs a space when it increases but that don't happen. So my solution was to add something in the quotations and it worked. </p>
 
-<br>
+
 
 <h1> Number 2:</h1>
 
-<img src="/blog/images/numb2.png" alt="ex">
+```python
+print("give me a number")
+n = input()
 
-<br>
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+
+
 
 <p> Number 2 was expected to determine if the number 1 to how ever much they input are even or odd. The problem I found was the first line is a print not an input and the input default is an string so whatever number the user inputs it will be an error due to it not being converted to a integer. The solution is to put an int infront of the input and in the if statement change it to less than and equal to so the code could work. </p>
 
-<br>
+
 
 <h1> Number 3: </h1>
 
-<img src="/blog/images/numb3.png" alt="ex">
+```python
+num = int(input("Enter an integer: "))
 
-<br>
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+```
+
+
 
 <p> Number 3 was used to calculate the factorial of a given number but it didn't work so the problem of the code was the range did not increase by 1. The way I fixed the code was to add a curly brackets for the num and result on the last line of code and to increase by 1 for the range. The code is not going to work if when the range is met the result don't go up by 1. </p>
 
-<br>
+
 
 <h1> Number 4:</h1>
-<br>
+
+```python
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+    attempts += 1
+
+    if password == "incorrect_password":
+        print("Correct password!")
+    else:
+        print("Incorrect password")
+
+    if attempts > 3:
+        print("Too many attempts")
+        break
+```
+
 <p>And finally number 4 was asking the user to enter the correct password but they only get three attempts. The code was messed up by giving the user more than 3 three attempts. So I had to add the equal sign to the greater than sign to make the attempts stop at 3. </p>
-<br>
+
 
 <p><i> And this is the end of my second blog, I hoped you enjoyed it!!!</i></p >
