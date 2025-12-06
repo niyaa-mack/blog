@@ -50,9 +50,9 @@ for num in range(1, n):
 
 
 This program was supposed to tell if numbers are even or odd. The issues:
-<br>The input stayed as a string, so math didn’t work.</br>
-<br>The condition num % 2 < 0 wasn’t right for checking even numbers.</br>
-The fix was converting the input with int(input()) and changing the condition to num % 2 == 0.
+<br>The input stayed as a string, so math didn’t work.
+<br>The condition num % 2 < 0 wasn’t right for checking even numbers.
+<br>The fix was converting the input with int(input()) and changing the condition to num % 2 == 0.
 
 
 
@@ -75,8 +75,8 @@ else:
 
 
 This program was meant to calculate factorials, but the loop stopped too early and the print statement mixed strings with integers. The fixes:
-<br>Extend the loop to include the final number (range(1, num + 1)).</br>
-<br>Use proper formatting (like f‑strings) so the output combines text and numbers cleanly.</br>
+<br>Extend the loop to include the final number (range(1, num + 1)).
+<br>Use proper formatting (like f‑strings) so the output combines text and numbers cleanly.
 
 
 
