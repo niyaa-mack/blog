@@ -18,7 +18,7 @@ elif temperature < 0:
 ```
 
 
-**<h1>The first one:</h1>**
+<h1>The first one:</h1>
 
 ```python
 text = "Hello, world, my name is"
