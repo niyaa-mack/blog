@@ -8,7 +8,6 @@ code and says what was the issue and how to fix the issue.</p>
 
 ```python
 temperature = 75
-
 if temperature > 80:
     print("It's hot")
 elif temperature > 50:
@@ -34,7 +33,7 @@ print(count)
 
 
 
-<h1> Number 2:</h1>222                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+<h1> Number 2:</h1>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
 ```python
 print("give me a number")
